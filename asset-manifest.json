@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nextgenitwavehunters/static/css/main.24c5f2d4.css",
+    "main.js": "/nextgenitwavehunters/static/js/main.947be9ec.js",
+    "static/js/453.18dac23e.chunk.js": "/nextgenitwavehunters/static/js/453.18dac23e.chunk.js",
+    "index.html": "/nextgenitwavehunters/index.html",
+    "main.24c5f2d4.css.map": "/nextgenitwavehunters/static/css/main.24c5f2d4.css.map",
+    "main.947be9ec.js.map": "/nextgenitwavehunters/static/js/main.947be9ec.js.map",
+    "453.18dac23e.chunk.js.map": "/nextgenitwavehunters/static/js/453.18dac23e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24c5f2d4.css",
+    "static/js/main.947be9ec.js"
+  ]
+}
