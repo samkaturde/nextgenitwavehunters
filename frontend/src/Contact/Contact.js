@@ -6,6 +6,8 @@ import * as Yup from 'yup';
 
 // Enhanced email validation regex pattern
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+const apiUrl = process.env.REACT_APP_API_URL;
+
 
 // Yup validation schema with advanced email validation
 const validationSchema = Yup.object({
@@ -33,7 +35,7 @@ const Contact = () => {
     validationSchema: validationSchema,
     onSubmit: async (values, { resetForm }) => {
       try {
-        const response = await fetch('http://localhost:5002/api/contact', {
+        const response = await fetch(apiUrl+'/contact', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
